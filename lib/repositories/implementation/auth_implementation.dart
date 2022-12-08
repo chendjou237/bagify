@@ -15,7 +15,6 @@ class AuthRepository implements BaseAuthRepository {
   }
 
   @override
-  // TODO: implement onAuthStateChanged
   Stream<User?> get onAuthStateChanged =>
       ref.read((firebaseAuthProvider)).authStateChanges();
 
