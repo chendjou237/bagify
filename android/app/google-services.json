@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "281622005370",
+    "project_id": "bagify-911b7",
+    "storage_bucket": "bagify-911b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281622005370:android:dc076308eec0f558e7ddc3",
+        "android_client_info": {
+          "package_name": "com.example.bagify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281622005370-qnqml6j8h7chsdcv7ihcjm9md2gvj16o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7WRl9g3zgy6Dy3ipFGHqPOaVsEuSMor0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281622005370-qnqml6j8h7chsdcv7ihcjm9md2gvj16o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

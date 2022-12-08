@@ -1,7 +1,12 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-void main() {
-  runApp(const MyApp());
+void main() async {
+  // This is the main entry point of the application.
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(const ProviderScope(child: MyApp()));
 }
 
 class MyApp extends StatelessWidget {
